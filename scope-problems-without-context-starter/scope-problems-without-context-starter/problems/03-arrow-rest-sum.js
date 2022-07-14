@@ -12,6 +12,12 @@ arrowRestSum(0); // => 0
 
 // your code here!
 
+const arrowRestSum = (...nums) => {
+  let sum = nums.reduce((acc, el) => (acc += el))
+  return sum;
+}
+
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
