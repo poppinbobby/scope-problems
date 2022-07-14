@@ -15,7 +15,7 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 ***********************************************************************/
 
 // your code here!
-const arrowGetFullName = person => person.firstName + " " + person.lastName;
+const arrowGetFullName = person => person.firstName + " " + person.lastName;    // uses dot notation and prints name from object
 
 
 

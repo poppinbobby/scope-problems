@@ -23,12 +23,11 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 const arrowMyMap = (array, cb) => {
   let mapped = []; // create new array
 
-  array.forEach((el) => mapped.push(cb(el))); //iterate through each element of original array, invoking callback method
+  array.forEach((el) => mapped.push(cb(el))); //iterate through each element of original array, pushing into new array w/ cb
+
   return mapped; // return new array
 };
 
-let result1 = arrowMyMap([100, 25, 81, 64], Math.sqrt);
-console.log(result1); // [ 10, 5, 9, 8 ]
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
