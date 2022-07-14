@@ -20,13 +20,6 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 
 // your code here!
 
-const arrowMyMap = (array, cb) => {
-  let mapped = []; // create new array
-
-  array.forEach((el) => mapped.push(cb(el))); //iterate through each element of original array, pushing into new array w/ cb
-
-  return mapped; // return new array
-};
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

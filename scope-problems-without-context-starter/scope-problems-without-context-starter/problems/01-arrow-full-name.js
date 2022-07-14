@@ -15,15 +15,10 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 ***********************************************************************/
 
 // your code here!
-const arrowGetFullName = person => person.firstName + " " + person.lastName;    // uses dot notation and prints name from object
 
 
 
 
-let p1 = {firstName: 'John', lastName: 'Doe'};
-arrowGetFullName(p1); // => 'John Doe'
-let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
-arrowGetFullName(p2); // => 'Charlie Brown'
 
 
 
